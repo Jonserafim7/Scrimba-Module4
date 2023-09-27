@@ -3,11 +3,11 @@ CSS essencial concepts
 
 concepts that we've learnt in this project:
 
--Semantic HTML to make our layout more accessible (using tags like <main>, <section>, <header> and <footer>)
+-Semantic HTML to make our layout more accessible (using tags like main, section, header and footer)
 
 -Hover and active states using pseude selector (a:hover,a:active, for example)
 
--When to use <a> (navigation) or <button>(triggering some kind of interactivity)
+-When to use "a" tags (navigation) or "button" tags(triggering some kind of interactivity)
 
 -Specificity (point system)
 
