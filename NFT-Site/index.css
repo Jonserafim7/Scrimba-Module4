@@ -1,0 +1,110 @@
+/* We want to start off by defining some general rules
+that will apply to the whole layout, unless we override them */
+
+/* It's common practice to set out a default font, font-size and font-color */
+
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2b283a;
+}
+
+/* Typography */
+
+h1, h3 {
+    margin:0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    color: #d0aaff;
+    font-size: 20px;
+}
+
+p {
+    line-height: 23px;
+}
+
+/* links */
+
+.btns:hover, .btns:active {
+    color: #2b283a;
+    background-color: #f3e885;
+}
+
+.btns {
+    display: inline-block;
+    border-radius: 4.6px;
+    border: none;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.btn-light {
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.btn-mid {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-dark {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+
+/* layout  */
+
+header, section, footer {
+    padding: 45px 0;
+}
+
+header, #section2 {
+    background-color: #5f29a3;
+}
+
+h1, #section2 {
+    color: whitesmoke;
+}
+
+#section2-imgs-container {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.section2-imgs-properties {
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+}
+
+.sneakers-img {
+    width: 100%;
+}
+
+footer {
+    color:#5f29a3;
+    text-align: center;
+}
+
+
+
+
