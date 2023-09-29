@@ -1,0 +1,128 @@
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+/* typography */
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 70px;
+    margin-top: 0;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 48px;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid grey;
+    padding: 20px 0; 
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin:0;
+}
+
+.small-font-paragraph{
+    margin-top: 0;
+    font-size: 16px;
+    color:white;
+}
+
+.h1-span {
+    font-size: 80px;
+    display: block;
+}
+
+.h2-span {
+    font-size: 60px;
+    display: block;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.h1-span, .h2-span, .name, time {
+    color:#99D930;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* layout */
+
+.inverse { /* utility class that can be reused anywhere in the website*/
+    background-color: #252525;
+    color: #FFF;
+}
+
+.container {
+    /* border: 1px dotted black; */
+    text-align: center;
+    width: 570px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* links */
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover, a:focus {
+    color:white;
+}
+
+.button {
+    display: inline-block;
+    color: #252525;
+    text-decoration: none;
+    background-color: #99D930;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+.button:hover, .btn:focus {
+    background-color: #252525;
+    color: #FFF;
+}
+
+.articles .button:hover, 
+.articles .btn:focus {
+    background-color: white;
+    color: #252525;
+}
