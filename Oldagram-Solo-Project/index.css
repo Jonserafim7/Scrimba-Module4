@@ -1,0 +1,128 @@
+body {
+    margin:0;
+    background-color: #C6C6C6;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+}
+
+
+/* Typography */
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* layout */
+
+.main-container {
+    margin: 0px auto 20px auto;
+}
+
+.container {
+    /* border: 1px dotted black; */
+    width: 375px;
+    margin: 0 auto;
+    align-items: center;
+    background: #FFF;
+}
+
+
+header .container {
+    display: flex;
+    padding: 15px;
+    width: 345px;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    margin-top: 20px
+} 
+
+.user-info .container {
+    display: flex;
+    gap: 7px;
+    height: 55px;
+    padding: 0 10px;
+    width: 355px;
+}
+
+/* .post-img-section .container {
+    background-image: url("images/post-vangogh.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 375px;
+
+} */
+
+.post-img {
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    padding: 15px;
+    width: 345px;
+    height: 90px;
+}
+
+
+
+.header-profile-picture,
+ .avatar-img {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 127px;
+}
+
+.post-img{
+    width: 375px;
+    height: auto;
+}
+
+
+
+
+
+/* links */
+
+button {
+    width: 22px;
+    height: 22px;
+    border: none;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-right: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#like-btn {
+    background-image: url("images/icon-heart.png");
+}
+
+#comment-btn {
+    background-image: url("images/icon-comment.png");
+}
+
+#dm-button {
+    background-image: url("images/icon-dm.png");
+}
+
