@@ -59,7 +59,9 @@ function publishPost() {
     for (let i = 0; i < posts.length; i++) {
         let currentPost = posts[i];
         createPost(currentPost)
+        push(postsInDb, currentPost)
     }
+
 }
 
 
