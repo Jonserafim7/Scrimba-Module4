@@ -64,6 +64,7 @@ header .container {
 
 .post-img {
     width: 100%;
+    display: block;
 }
 
 .footer .container {
